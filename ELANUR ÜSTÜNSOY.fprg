@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ELANUR &#220;ST&#220;NSOY"/>
+        <attribute name="authors" value="Alper"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-08 09:19:44 &#214;S"/>
+        <attribute name="created" value="QWxwZXI7REVTS1RPUC01Rk5QVEtGOzIwMjYtMDItMDg7MDk6MTI6Mjcgw5ZTOzMwMTg="/>
+        <attribute name="edited" value="QWxwZXI7REVTS1RPUC01Rk5QVEtGOzIwMjYtMDItMDg7MDk6MTk6NDQgw5ZTOzE7MzEzMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="&quot;write down number1&quot;,number1"/>
+            <input variable="&quot;write down number2&quot;,number2"/>
+            <if expression="number1&lt;number2">
+                <then>
+                    <output expression="number2 is bigger" newline="True"/>
+                </then>
+                <else>
+                    <output expression="number1 is bigger" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
